@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813BEA362A1C7288000EEEEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BEA332A1C7288000EEEEE /* ViewController.swift */; };
+		813BEA372A1C7288000EEEEE /* TexturedFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BEA342A1C7288000EEEEE /* TexturedFace.swift */; };
+		813BEA382A1C7288000EEEEE /* DibuangSayang in Resources */ = {isa = PBXBuildFile; fileRef = 813BEA352A1C7288000EEEEE /* DibuangSayang */; };
+		813BEA3A2A1C7365000EEEEE /* VirtualContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BEA392A1C7365000EEEEE /* VirtualContent.swift */; };
+		815CB5672A1C685200C91DD9 /* TexturedFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CB5662A1C685200C91DD9 /* TexturedFace.swift */; };
+		8192B7B82A1B0F16003DBC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7B72A1B0F16003DBC3B /* AppDelegate.swift */; };
+		8192B7BA2A1B0F16003DBC3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7B92A1B0F16003DBC3B /* ContentView.swift */; };
+		8192B7BC2A1B0F16003DBC3B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7BB2A1B0F16003DBC3B /* Experience.rcproject */; };
+		8192B7BE2A1B0F17003DBC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8192B7BD2A1B0F17003DBC3B /* Assets.xcassets */; };
+		8192B7C12A1B0F17003DBC3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8192B7C02A1B0F17003DBC3B /* Preview Assets.xcassets */; };
+		8192B7CB2A1B0F17003DBC3B /* FaneyeARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7CA2A1B0F17003DBC3B /* FaneyeARTests.swift */; };
+		8192B7D52A1B0F17003DBC3B /* FaneyeARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7D42A1B0F17003DBC3B /* FaneyeARUITests.swift */; };
+		8192B7D72A1B0F17003DBC3B /* FaneyeARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7D62A1B0F17003DBC3B /* FaneyeARUITestsLaunchTests.swift */; };
+		8192B7E52A1B15AC003DBC3B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7E42A1B15AC003DBC3B /* SplashScreenView.swift */; };
+		8192B7E72A1B165B003DBC3B /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7E62A1B165B003DBC3B /* MainPageView.swift */; };
+		8192B7EB2A1B18A5003DBC3B /* WelcomingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7EA2A1B18A5003DBC3B /* WelcomingTextView.swift */; };
+		8192B7ED2A1B23DD003DBC3B /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192B7EC2A1B23DD003DBC3B /* PopUpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8192B7C72A1B0F17003DBC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8192B7AC2A1B0F15003DBC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8192B7B32A1B0F16003DBC3B;
+			remoteInfo = FaneyeAR;
+		};
+		8192B7D12A1B0F17003DBC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8192B7AC2A1B0F15003DBC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8192B7B32A1B0F16003DBC3B;
+			remoteInfo = FaneyeAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		813BEA332A1C7288000EEEEE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		813BEA342A1C7288000EEEEE /* TexturedFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TexturedFace.swift; sourceTree = "<group>"; };
+		813BEA352A1C7288000EEEEE /* DibuangSayang */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DibuangSayang; sourceTree = "<group>"; };
+		813BEA392A1C7365000EEEEE /* VirtualContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualContent.swift; sourceTree = "<group>"; };
+		815CB5662A1C685200C91DD9 /* TexturedFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturedFace.swift; sourceTree = "<group>"; };
+		8192B7B42A1B0F16003DBC3B /* FaneyeAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaneyeAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8192B7B72A1B0F16003DBC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8192B7B92A1B0F16003DBC3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8192B7BB2A1B0F16003DBC3B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		8192B7BD2A1B0F17003DBC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8192B7C02A1B0F17003DBC3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8192B7C62A1B0F17003DBC3B /* FaneyeARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaneyeARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8192B7CA2A1B0F17003DBC3B /* FaneyeARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaneyeARTests.swift; sourceTree = "<group>"; };
+		8192B7D02A1B0F17003DBC3B /* FaneyeARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaneyeARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8192B7D42A1B0F17003DBC3B /* FaneyeARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaneyeARUITests.swift; sourceTree = "<group>"; };
+		8192B7D62A1B0F17003DBC3B /* FaneyeARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaneyeARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8192B7E32A1B1036003DBC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8192B7E42A1B15AC003DBC3B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		8192B7E62A1B165B003DBC3B /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		8192B7EA2A1B18A5003DBC3B /* WelcomingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomingTextView.swift; sourceTree = "<group>"; };
+		8192B7EC2A1B23DD003DBC3B /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8192B7B12A1B0F16003DBC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8192B7C32A1B0F17003DBC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8192B7CD2A1B0F17003DBC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813BEA3B2A1C737D000EEEEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8192B7B92A1B0F16003DBC3B /* ContentView.swift */,
+				8192B7EC2A1B23DD003DBC3B /* PopUpView.swift */,
+				8192B7E42A1B15AC003DBC3B /* SplashScreenView.swift */,
+				8192B7E62A1B165B003DBC3B /* MainPageView.swift */,
+				8192B7EA2A1B18A5003DBC3B /* WelcomingTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8192B7AB2A1B0F15003DBC3B = {
+			isa = PBXGroup;
+			children = (
+				8192B7B62A1B0F16003DBC3B /* FaneyeAR */,
+				8192B7C92A1B0F17003DBC3B /* FaneyeARTests */,
+				8192B7D32A1B0F17003DBC3B /* FaneyeARUITests */,
+				8192B7B52A1B0F16003DBC3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8192B7B52A1B0F16003DBC3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8192B7B42A1B0F16003DBC3B /* FaneyeAR.app */,
+				8192B7C62A1B0F17003DBC3B /* FaneyeARTests.xctest */,
+				8192B7D02A1B0F17003DBC3B /* FaneyeARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8192B7B62A1B0F16003DBC3B /* FaneyeAR */ = {
+			isa = PBXGroup;
+			children = (
+				8192B7E32A1B1036003DBC3B /* Info.plist */,
+				8192B7B72A1B0F16003DBC3B /* AppDelegate.swift */,
+				813BEA3B2A1C737D000EEEEE /* View */,
+				813BEA352A1C7288000EEEEE /* DibuangSayang */,
+				813BEA342A1C7288000EEEEE /* TexturedFace.swift */,
+				813BEA332A1C7288000EEEEE /* ViewController.swift */,
+				813BEA392A1C7365000EEEEE /* VirtualContent.swift */,
+				815CB5662A1C685200C91DD9 /* TexturedFace.swift */,
+				8192B7BB2A1B0F16003DBC3B /* Experience.rcproject */,
+				8192B7BD2A1B0F17003DBC3B /* Assets.xcassets */,
+				8192B7BF2A1B0F17003DBC3B /* Preview Content */,
+			);
+			path = FaneyeAR;
+			sourceTree = "<group>";
+		};
+		8192B7BF2A1B0F17003DBC3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8192B7C02A1B0F17003DBC3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8192B7C92A1B0F17003DBC3B /* FaneyeARTests */ = {
+			isa = PBXGroup;
+			children = (
+				8192B7CA2A1B0F17003DBC3B /* FaneyeARTests.swift */,
+			);
+			path = FaneyeARTests;
+			sourceTree = "<group>";
+		};
+		8192B7D32A1B0F17003DBC3B /* FaneyeARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8192B7D42A1B0F17003DBC3B /* FaneyeARUITests.swift */,
+				8192B7D62A1B0F17003DBC3B /* FaneyeARUITestsLaunchTests.swift */,
+			);
+			path = FaneyeARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8192B7B32A1B0F16003DBC3B /* FaneyeAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8192B7DA2A1B0F17003DBC3B /* Build configuration list for PBXNativeTarget "FaneyeAR" */;
+			buildPhases = (
+				8192B7B02A1B0F16003DBC3B /* Sources */,
+				8192B7B12A1B0F16003DBC3B /* Frameworks */,
+				8192B7B22A1B0F16003DBC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaneyeAR;
+			productName = FaneyeAR;
+			productReference = 8192B7B42A1B0F16003DBC3B /* FaneyeAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8192B7C52A1B0F17003DBC3B /* FaneyeARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8192B7DD2A1B0F17003DBC3B /* Build configuration list for PBXNativeTarget "FaneyeARTests" */;
+			buildPhases = (
+				8192B7C22A1B0F17003DBC3B /* Sources */,
+				8192B7C32A1B0F17003DBC3B /* Frameworks */,
+				8192B7C42A1B0F17003DBC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8192B7C82A1B0F17003DBC3B /* PBXTargetDependency */,
+			);
+			name = FaneyeARTests;
+			productName = FaneyeARTests;
+			productReference = 8192B7C62A1B0F17003DBC3B /* FaneyeARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8192B7CF2A1B0F17003DBC3B /* FaneyeARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8192B7E02A1B0F17003DBC3B /* Build configuration list for PBXNativeTarget "FaneyeARUITests" */;
+			buildPhases = (
+				8192B7CC2A1B0F17003DBC3B /* Sources */,
+				8192B7CD2A1B0F17003DBC3B /* Frameworks */,
+				8192B7CE2A1B0F17003DBC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8192B7D22A1B0F17003DBC3B /* PBXTargetDependency */,
+			);
+			name = FaneyeARUITests;
+			productName = FaneyeARUITests;
+			productReference = 8192B7D02A1B0F17003DBC3B /* FaneyeARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8192B7AC2A1B0F15003DBC3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8192B7B32A1B0F16003DBC3B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8192B7C52A1B0F17003DBC3B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8192B7B32A1B0F16003DBC3B;
+					};
+					8192B7CF2A1B0F17003DBC3B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8192B7B32A1B0F16003DBC3B;
+					};
+				};
+			};
+			buildConfigurationList = 8192B7AF2A1B0F15003DBC3B /* Build configuration list for PBXProject "FaneyeAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8192B7AB2A1B0F15003DBC3B;
+			productRefGroup = 8192B7B52A1B0F16003DBC3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8192B7B32A1B0F16003DBC3B /* FaneyeAR */,
+				8192B7C52A1B0F17003DBC3B /* FaneyeARTests */,
+				8192B7CF2A1B0F17003DBC3B /* FaneyeARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8192B7B22A1B0F16003DBC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8192B7C12A1B0F17003DBC3B /* Preview Assets.xcassets in Resources */,
+				813BEA382A1C7288000EEEEE /* DibuangSayang in Resources */,
+				8192B7BE2A1B0F17003DBC3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8192B7C42A1B0F17003DBC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8192B7CE2A1B0F17003DBC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8192B7B02A1B0F16003DBC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BEA3A2A1C7365000EEEEE /* VirtualContent.swift in Sources */,
+				8192B7ED2A1B23DD003DBC3B /* PopUpView.swift in Sources */,
+				813BEA372A1C7288000EEEEE /* TexturedFace.swift in Sources */,
+				815CB5672A1C685200C91DD9 /* TexturedFace.swift in Sources */,
+				8192B7BA2A1B0F16003DBC3B /* ContentView.swift in Sources */,
+				813BEA362A1C7288000EEEEE /* ViewController.swift in Sources */,
+				8192B7E52A1B15AC003DBC3B /* SplashScreenView.swift in Sources */,
+				8192B7E72A1B165B003DBC3B /* MainPageView.swift in Sources */,
+				8192B7EB2A1B18A5003DBC3B /* WelcomingTextView.swift in Sources */,
+				8192B7B82A1B0F16003DBC3B /* AppDelegate.swift in Sources */,
+				8192B7BC2A1B0F16003DBC3B /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8192B7C22A1B0F17003DBC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8192B7CB2A1B0F17003DBC3B /* FaneyeARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8192B7CC2A1B0F17003DBC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8192B7D72A1B0F17003DBC3B /* FaneyeARUITestsLaunchTests.swift in Sources */,
+				8192B7D52A1B0F17003DBC3B /* FaneyeARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8192B7C82A1B0F17003DBC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8192B7B32A1B0F16003DBC3B /* FaneyeAR */;
+			targetProxy = 8192B7C72A1B0F17003DBC3B /* PBXContainerItemProxy */;
+		};
+		8192B7D22A1B0F17003DBC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8192B7B32A1B0F16003DBC3B /* FaneyeAR */;
+			targetProxy = 8192B7D12A1B0F17003DBC3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8192B7D82A1B0F17003DBC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8192B7D92A1B0F17003DBC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8192B7DB2A1B0F17003DBC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FaneyeAR/Preview Content\"";
+				DEVELOPMENT_TEAM = A7ZW6C729J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaneyeAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app need your camera to try the filters";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belajarbelajar.FaneyeAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8192B7DC2A1B0F17003DBC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FaneyeAR/Preview Content\"";
+				DEVELOPMENT_TEAM = A7ZW6C729J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaneyeAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app need your camera to try the filters";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belajarbelajar.FaneyeAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8192B7DE2A1B0F17003DBC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7ZW6C729J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belajarbelajar.FaneyeARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaneyeAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaneyeAR";
+			};
+			name = Debug;
+		};
+		8192B7DF2A1B0F17003DBC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7ZW6C729J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belajarbelajar.FaneyeARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaneyeAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaneyeAR";
+			};
+			name = Release;
+		};
+		8192B7E12A1B0F17003DBC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7ZW6C729J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belajarbelajar.FaneyeARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaneyeAR;
+			};
+			name = Debug;
+		};
+		8192B7E22A1B0F17003DBC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7ZW6C729J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belajarbelajar.FaneyeARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaneyeAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8192B7AF2A1B0F15003DBC3B /* Build configuration list for PBXProject "FaneyeAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8192B7D82A1B0F17003DBC3B /* Debug */,
+				8192B7D92A1B0F17003DBC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8192B7DA2A1B0F17003DBC3B /* Build configuration list for PBXNativeTarget "FaneyeAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8192B7DB2A1B0F17003DBC3B /* Debug */,
+				8192B7DC2A1B0F17003DBC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8192B7DD2A1B0F17003DBC3B /* Build configuration list for PBXNativeTarget "FaneyeARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8192B7DE2A1B0F17003DBC3B /* Debug */,
+				8192B7DF2A1B0F17003DBC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8192B7E02A1B0F17003DBC3B /* Build configuration list for PBXNativeTarget "FaneyeARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8192B7E12A1B0F17003DBC3B /* Debug */,
+				8192B7E22A1B0F17003DBC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8192B7AC2A1B0F15003DBC3B /* Project object */;
+}
