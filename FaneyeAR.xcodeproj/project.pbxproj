@@ -52,7 +52,7 @@
 		8192B7B42A1B0F16003DBC3B /* FaneyeAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaneyeAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8192B7B72A1B0F16003DBC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8192B7B92A1B0F16003DBC3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8192B7BB2A1B0F16003DBC3B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		8192B7BB2A1B0F16003DBC3B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Experience.rcproject; path = "../../Library/Mobile Documents/com~apple~CloudDocs/Reality Composer/Experience.rcproject"; sourceTree = "<group>"; };
 		8192B7BD2A1B0F17003DBC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8192B7C02A1B0F17003DBC3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8192B7C62A1B0F17003DBC3B /* FaneyeARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaneyeARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
